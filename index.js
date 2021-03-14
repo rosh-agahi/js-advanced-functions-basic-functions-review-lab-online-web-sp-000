@@ -12,3 +12,5 @@ function wrapAdjective(string = "*") {
         return `You are ${string}${adj}${string}!`
     }
 }
+
+f
