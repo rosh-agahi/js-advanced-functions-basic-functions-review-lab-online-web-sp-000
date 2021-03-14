@@ -1,4 +1,4 @@
 // Your code here
-function saturdayFun() {
-  return "This Saturday, I want to go to the beach!"
+function saturdayFun(activity = 'roller-skate') {
+  return `This Saturday, I want to ${activity}!`
 }
