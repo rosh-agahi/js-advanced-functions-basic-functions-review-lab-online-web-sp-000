@@ -28,6 +28,13 @@ const Calculator = {
     }
 }
 
-function actionApplyer(i, ) {
-  
+function actionApplyer(int, array) {
+    let a = int
+
+    for (let i = 0; i < array.length; i++) {
+        a = array[i](a);
+
+    }
+
+    return a
 }
